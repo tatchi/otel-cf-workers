@@ -184,3 +184,5 @@ export function instrumentDO(doClass: DOClass, config: ConfigurationOption) {
 }
 
 export { waitUntilTrace } from './instrumentation/fetch.js'
+
+export { OTLPExporter }
